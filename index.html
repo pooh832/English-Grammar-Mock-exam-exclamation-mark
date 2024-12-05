@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英文法概説クイズ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div> <!--背景用コンテナ追加-->
+    
+    <div class="quiz-container" id="level-selection">
+        <h1>英文法概説クイズ</h1>
+        <button onclick="setMode('easy')">簡単モード</button>
+        <button onclick="setMode('hard')">難しいモード</button>
+    </div>
+
+    <div class="quiz-container" id="quiz-content" style="display: none;">
+        <h1>Question</h1>
+        <div id="question"></div>
+        <div class="options" id="options-container">
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+        </div>
+        <div id="input-container" style="display: none;">
+            <input type="text" id="answer-input" placeholder="答えを入力">
+            <button onclick="submitHardAnswer()">回答する</button>
+        </div>
+        <div id="result"></div>
+        <div id="final-result" style="display: none;">
+            <h2>結果発表</h2>
+            <p id="score"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
