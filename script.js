@@ -107,3 +107,27 @@ function shuffleArray(array) {
     }
     return array;
 }
+
+function createAlphabet() {
+    const background = document.getElementById('background');
+    const alphabet = document.createElement('div');
+    alphabet.classList.add('alphabet');
+
+    // ランダムなアルファベットを生成
+    const letter = String.fromCharCode(65 + Math.floor(Math.random() * 26)); // A-Z
+    alphabet.textContent = letter;
+
+    // ランダムな位置に配置
+    alphabet.style.left = Math.random() * 100 + 'vw';
+    alphabet.style.animationDuration = Math.random() * 3 + 3 + 's'; // 3秒〜6秒のランダム速度
+
+    background.appendChild(alphabet);
+
+    // アニメーションが終了したら要素を削除
+    setTimeout(() => {
+        alphabet.remove();
+    }, 5000);
+}
+
+// 定期的にアルファベットを生成
+setInterval(createAlphabet, 300);  // 0.3秒ごとに生成
