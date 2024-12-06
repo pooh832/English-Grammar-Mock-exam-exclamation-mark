@@ -21,7 +21,7 @@ button.option {
     width: 100%;
     margin: 10px 0;
     padding: 10px;
-    background-color: #007BFF;
+    background-color: #93834e;
     color: white;
     border: none;
     border-radius: 5px;
@@ -29,7 +29,7 @@ button.option {
 }
 
 button.option:hover {
-    background-color: #0056b3;
+    background-color: #5d5332;
 }
 
 #input-container {
@@ -44,5 +44,36 @@ button.option:hover {
     border-radius: 5px;
 }
 
+body {
+    margin: 0;
+    overflow: hidden;  /* 背景アニメーションがページ外に広がらないように */
+    background-color: #d4a62f;  /* 背景色 */
+    position: relative;
+}
 
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;  /* 背景に配置 */
+}
 
+.alphabet {
+    position: absolute;
+    color: rgba(17, 2, 2, 0.7);  /* 透明度のある白色 */
+    font-size: 4rem;
+    animation: floatAnimation 5s linear infinite;
+}
+
+@keyframes floatAnimation {
+    from {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(-10vh);
+        opacity: 1;
+    }
+}
