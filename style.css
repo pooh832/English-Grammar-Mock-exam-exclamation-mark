@@ -16,6 +16,13 @@ body {
     text-align: center;
 }
 
+#current-question {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
 button.option {
     display: block;
     width: 100%;
@@ -34,6 +41,29 @@ button.option:hover {
 
 #input-container {
     margin-top: 20px;
+}
+
+/* 次へボタンのスタイル */
+#next-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #93834e;  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;  /* 最初は非表示 */
+    transition: background-color 0.3s ease;
+}
+
+#next-button:hover {
+    background-color: #5d5332;  /* ホバー時に暗くなる */
+}
+
+#next-button:focus {
+    outline: none;  /* フォーカス時のアウトラインを削除 */
 }
 
 #answer-input {
