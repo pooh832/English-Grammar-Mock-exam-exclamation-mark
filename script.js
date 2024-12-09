@@ -4,6 +4,7 @@ const options = document.querySelectorAll('.option');
 const inputContainer = document.getElementById('input-container');
 const answerInput = document.getElementById('answer-input');
 const resultElement = document.getElementById('result');
+const nextButton = document.getElementById('next-button');  // 「次へ」ボタンの参照
 const finalResultElement = document.getElementById('final-result');
 const scoreElement = document.getElementById('score');
 const quizContent = document.getElementById('quiz-content');
@@ -39,6 +40,10 @@ function loadQuestion() {
     const currentQuestion = quizData[currentQuestionIndex];
     questionElement.textContent = currentQuestion.question;
 
+    // 現在の問題番号を表示
+    const questionNumber = currentQuestionIndex + 1;  // 0から始まるインデックスを1から始まる問題番号に変換
+    document.getElementById('current-question').textContent = `問題 ${questionNumber} / ${quizData.length}`;
+
     if (mode === 'easy') {
         // 簡単モード：ボタン表示
         inputContainer.style.display = 'none';
@@ -46,12 +51,14 @@ function loadQuestion() {
         options.forEach((button, index) => {
             button.textContent = currentQuestion.options[index];
             button.onclick = () => checkAnswer(button.textContent);
+            nextButton.style.display = 'block';
         });
     } else {
         // 難しいモード：記述式入力
         optionsContainer.style.display = 'none';
         inputContainer.style.display = 'block';
         answerInput.value = '';
+        nextButton.style.display = 'none';
     }
 }
 
@@ -78,16 +85,22 @@ function evaluateAnswer(selected) {
         resultElement.style.color = "red";
     }
 
+    nextButton.style.display = 'block';
+}
+
+function loadNextQuestion() {
+    nextButton.style.display = 'none';  // 「次へ」ボタンを非表示にして、連続してクリックできないようにする
+    resultElement.textContent = '';  // 結果表示をクリア
+
     currentQuestionIndex++;
+
     if (currentQuestionIndex >= quizData.length) {
-        setTimeout(showFinalResult, 2000);
+        showFinalResult();  // すべての問題が終わったら結果画面を表示
     } else {
-        setTimeout(() => {
-            resultElement.textContent = "";
-            loadQuestion();
-        }, 2000);
+        loadQuestion();  // 次の問題を表示
     }
 }
+
 
 // 結果発表画面を表示する関数
 function showFinalResult() {
