@@ -142,5 +142,5 @@ function createAlphabet() {
     }, 5000);
 }
 
-// 定期的にアルファベットを生成
+// 定期的にアルファベットを生成する
 setInterval(createAlphabet, 300);  // 0.3秒ごとに生成
