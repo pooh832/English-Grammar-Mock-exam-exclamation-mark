@@ -74,6 +74,16 @@ button.option:hover {
     border-radius: 5px;
 }
 
+/* 最後の結果画面 */
+#final-result {
+    text-align: center;
+    font-size: 15px;
+}
+
+#final-result h3 {
+    margin-top: 15px;
+}
+
 body {
     margin: 0;
     overflow: hidden;  /* 背景アニメーションがページ外に広がらないように */
