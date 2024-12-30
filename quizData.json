@@ -2,159 +2,696 @@
     {
         "question": "形容詞のうち、名詞を修飾する用法を何というか",
         "options": ["制限用法", "非制限用法", "限定用法", "叙述用法"],
-        "correct": "限定用法"
+        "correct": "限定用法",
+        "selectedOption": ""  
     },
     {
         "question": "形容詞のうち、補語として用いられる用法を何というか",
         "options": ["制限用法", "非制限用法", "限定用法", "叙述用法"],
-        "correct": "叙述用法"
+        "correct": "叙述用法",
+        "selectedOption": ""
     },
     {
         "question": "I am not very well.のwellのような主語の状態について説明する補語を何というか",
         "options": ["主格補語", "所有格補語", "目的格補語", "所有目的格補語"],
-        "correct": "主格補語"
+        "correct": "主格補語",
+        "selectedOption": ""
     }, {
         "question": "I thought that a bit optimistic.のoptimisticのようなthatの性質を説明する補語を何というか",
         "options": ["主格補語", "所有格補語", "目的格補語", "所有目的格補語"],
-        "correct": "目的格補語"
+        "correct": "目的格補語",
+        "selectedOption": ""
     },
     {
         "question": "alike , aware , alone のような、a-で始まる形容詞は常にどんな用法であるか",
         "options": ["制限用法", "非制限用法", "限定用法", "叙述用法"],
-        "correct": "叙述用法"
+        "correct": "叙述用法",
+        "selectedOption": ""
     },
     {
         "question": "限定用法か叙述用法かで意味が変わってくる単語(ex...present , able , responc...)があるが、限定用法の場合どのようなニュアンスを持つか",
         "options": ["永続的性質", "瞬間的性質", "一時的状態", "潜在的性質"],
-        "correct": "永続的性質"
-    }, {
+        "correct": "永続的性質",
+        "selectedOption": ""
+    },
+    {
         "question": "限定用法か叙述用法かで意味が変わってくる単語(ex...present , able , responc...)があるが、叙述用法の場合どのようなニュアンスを持つか",
         "options": ["永続的性質", "瞬間的性質", "一時的状態", "潜在的性質"],
-        "correct": "一時的状態"
+        "correct": "一時的状態",
+        "selectedOption": ""
     },
     {
         "question": "形容詞が背後に隠れた「人」などを間接的に修飾する場合を何というか",
         "options": ["直接限定", "間接限定", "近接限定", "遠隔限定"],
-        "correct": "間接限定"
+        "correct": "間接限定",
+        "selectedOption": ""
     },
     {
         "question": "-thing , -body , -one で終わる語を修飾する場合、形容詞はどこに置くのが適切か",
         "options": ["名詞の前", "名詞の後", "目的語の前", "目的語の後"],
-        "correct": "名詞の後"
+        "correct": "名詞の後",
+        "selectedOption": ""
     },
     {
         "question": "場所や時の副詞が形容詞的に用いられた場合はどうなるか",
         "options": ["前置修飾", "中置修飾", "後置修飾", "逆置修飾"],
-        "correct": "後置修飾"
+        "correct": "後置修飾",
+        "selectedOption": ""
     },
     {
         "question": "形容詞が単独ではなく、他の語句と一体となって名詞を修飾する場合はどうなるか",
         "options": ["前置修飾", "中置修飾", "後置修飾", "逆置修飾"],
-        "correct": "後置修飾"
+        "correct": "後置修飾",
+        "selectedOption": ""
     },
     {
         "question": "名詞にいくつ形容詞がついていても、それぞれが単独で名詞を修飾する場合はどうなるか",
         "options": ["前置修飾", "中置修飾", "後置修飾", "逆置修飾"],
-        "correct": "前置修飾"
+        "correct": "前置修飾",
+        "selectedOption": ""
     }, 
     {
         "question": "The children were playing happily.のhappilyは何を修飾しているか",
         "options": ["The children", "were", "playing", "文全体"],
-        "correct": "playing"
-    },
+        "correct": "playing",
+        "selectedOption": ""
+    }, 
     {
         "question": "Happily, the sea was calm.のhappilyは何を修飾しているか",
         "options": ["the sea", "was", "calm", "文全体"],
-        "correct": "文全体"
+        "correct": "文全体",
+        "selectedOption": ""
     },
     {
         "question": "howeverは文の中においてどこに置くことが可能か",
         "options": ["文頭", "文中", "文末", "どこでも"],
-        "correct": "どこでも"
+        "correct": "どこでも",
+        "selectedOption": ""
     },
     {
         "question": "文中の特定の語句（動詞・形容詞・副詞etc...）を修飾する副詞を何というか",
         "options": ["付加副詞", "離接副詞・文修飾副詞", "接続副詞", "方式副詞"],
-        "correct": "付加副詞"
+        "correct": "付加副詞",
+        "selectedOption": ""
     },
     {
         "question": "文全体を修飾する副詞を何というか",
         "options": ["付加副詞", "離接副詞・文修飾副詞", "接続副詞", "方式副詞"],
-        "correct": "離接副詞・文修飾副詞"
+        "correct": "離接副詞・文修飾副詞",
+        "selectedOption": ""
     },
     {
         "question": "文と文、節と節を結びつけ、接続詞と類似の働きををする副詞を何というか",
         "options": ["付加副詞", "離接副詞・文修飾副詞", "接続副詞", "方式副詞"],
-        "correct": "接続副詞"
+        "correct": "接続副詞",
+        "selectedOption": ""
     },
     {
         "question": "I entirely agree with you.のentirelyはどのようなニュアンスを持つ副詞か",
         "options": ["程度","様態","頻度","時"],
-        "correct": "程度"
+        "correct": "程度",
+        "selectedOption": ""
     },
     {
         "question": "The curtain falls slowly.のslowlyはどのようなニュアンスを持つ副詞か",
         "options": ["程度","様態","頻度","時"],
-        "correct": "様態"
+        "correct": "様態",
+        "selectedOption": ""
     },
     {
        "question": "He sometimes stays up all night.のsometimesはどのようなニュアンスを持つ副詞か",
        "options": ["程度","様態","頻度","時"],
-       "correct": "頻度"
+       "correct": "頻度",
+       "selectedOption": ""
     },
     {
         "question": "「程度」を表す副詞は原則的にどこに置くか",
         "options": ["修飾する語句の前","修飾する語句の後","修飾されない語句の前","修飾されない語句の後"],
-        "correct": "修飾する語句の前"
+        "correct": "修飾する語句の前",
+        "selectedOption": ""
     },
     {
         "question": "「程度」を表す副詞であるenoughはどこに置くのが適切か",
         "options" :["動詞の前","動詞の後","形容詞・副詞の前","形容詞・副詞の後"],
-        "correct": "形容詞・副詞の後"
+        "correct": "形容詞・副詞の後",
+        "selectedOption": ""
     },
     {
         "question": "文中に助動詞がある場合は「程度」を表す副詞はどこに置くのが適切か",
         "options": ["助動詞の前","助動詞の後","動詞の前","動詞の後"],
-        "correct": "助動詞の後"
+        "correct": "助動詞の後",
+        "selectedOption": ""
     },
     {
         "question": "「様態」を表す副詞の語順はどうなるか",
         "options": ["動詞+副詞","副詞+動詞","形容詞+副詞","副詞+形容詞"],
-        "correct": "動詞+副詞"
+        "correct": "動詞+副詞",
+        "selectedOption": ""
     },
     {
         "question": "「場所」や「時」を表す副詞は通例どこに置かれるか",
         "options":["文頭","文中","文末","どこでも"],
-        "correct": "文末"
+        "correct": "文末",
+        "selectedOption": ""
     },
     {
         "question": "「場所」を表す副詞が連続して続く場合、どのような語順になるか",
         "options":["特殊から一般","一般から特殊","具体から抽象","抽象から具体"],
-        "correct": "一般から特殊"
+        "correct": "一般から特殊",
+        "selectedOption": ""
     },
     {
         "question": "住所表記を表す副詞の場合、どのような語順になるか",
         "options":["一般から特殊","特殊から一般","具体から抽象","抽象から具体"],
-        "correct": "特殊から一般"
+        "correct": "特殊から一般",
+        "selectedOption": ""
     },
     {
         "question": "「時」を表す副詞が連続している場合、どのような語順になるか",
         "options":["一般から特殊","特殊から一般","具体から抽象","抽象から具体"],
-        "correct": "特殊から一般"
+        "correct": "特殊から一般",
+        "selectedOption": ""
     },
     {
         "question": "副詞が「場所」+「時」の順番の場合、どのような語順になるか",
         "options":["場所から時","時から場所","特殊から一般","一般から特殊"],
-        "correct": "場所から時"
+        "correct": "場所から時",
+        "selectedOption": ""
     },
     {
         "question": "文頭に置かれ、ほかの部分からカンマで区切られて用いられることが多い副詞は何か",
         "options":["付加副詞","離接副詞","接続副詞","方式副詞"],
-        "correct": "離接副詞"
+        "correct": "離接副詞",
+        "selectedOption": ""
     },
     {
         "question": "Fortunately, she was supposed to leave New York in a matter of days.のfortunatelyとは、文の内容に対する話し手の_________を表す副詞である。_________に入る語句は何か",
         "options":["評価","関心","心情","観点・視点"],
-        "correct": "評価"
-    }
+        "correct": "評価",
+        "selectedOption": ""
+    },
+    {
+        "question": "Sexually she did not in the least attract him.のsexuallyの場合、文の内容を述べる________を表す副詞である。_________に入る語句は何か",
+        "options":["評価","関心","心情","観点・視点"],
+        "correct": "観点・視点",
+        "selectedOption": ""
+    },
+    {
+        "question": "文の内容に対する話しての確信を表す副詞を何というか",
+        "options":["程度副詞","法副詞","接続副詞","否定・制限副詞"],
+        "correct": "法副詞",
+        "selectedOption": ""
+    },
+    {
+        "question": "Frankly (speaking), I'm tired.のFranklyの場合、speakingとよく共起することからもわかるように、話し手の放す際の_________を表す副詞である",
+        "options":["観点・視点","評価","態度・心情","確信の度合い"],
+        "correct": "態度・心情",
+        "selectedOption": ""
+    },
+    {
+        "question": "Without good friends and good talk, the best food is ordinary.という文では比較の対象が省略されており、さらにthe bestはeven the bestとeven(~でさえも)がついた場合と同じく_______の意味となっている。 ________に入る言葉は何か",
+        "options":["勧誘","譲歩","意志","適当"],
+        "correct": "譲歩",
+        "selectedOption": ""
+    },
+    {
+        "question": "He was as old as John.のas old asはどのようなニュアンスを持つか",
+        "options":["絶対的意味","相対的意味","抽象的意味","具体的意味"],
+        "correct": "相対的意味",
+        "selectedOption": ""
+    },
+    {
+        "question": "He was older than John.のolder thanはどのようなニュアンスを持つか",
+        "options":["絶対的意味","相対的意味","抽象的意味","具体的意味"],
+        "correct": "相対的意味",
+        "selectedOption": ""
+    },
+    {
+        "question": "He was the oldest in our class.のthe oldest in はどのようなニュアンスを持つか",
+        "options":["絶対的意味","相対的意味","抽象的意味","具体的意味"],
+        "correct": "相対的意味",
+        "selectedOption": ""
+    },
+    {
+        "question": "John is old.のoldはどのようなニュアンスを持つか",
+        "options":["絶対的意味","相対的意味","抽象的意味","具体的意味"],
+        "correct": "絶対的意味",
+        "selectedOption": ""
+    },
+    {
+        "question": "I've never seen a woman as beautiful as you.のas asはどのようなニュアンスを持つか",
+        "options":["絶対的意味","相対的意味","抽象的意味","具体的意味"],
+        "correct": "絶対的意味",
+        "selectedOption": ""
+    },
+    {
+        "question": "There's no flower more beautiful than a rose.のmore thanはどのようなニュアンスを持つか",
+        "options":["絶対的意味","相対的意味","抽象的意味","具体的意味"],
+        "correct": "絶対的意味",
+        "selectedOption": ""
+    },
+    {
+        "question": "He is the most beautiful of us.のthe mostとofはどのようなニュアンスを持つか",
+        "options":["絶対的意味","相対的意味","抽象的意味","具体的意味"],
+        "correct": "絶対的意味",
+        "selectedOption": ""
+    },
+    {
+        "question": "同じ比較構文を用いても相対的意味ではなく絶対的意味になる場合があるが、このような違いは形容詞の意味の相違によって生じているのであり、物事に対する__________を表す語の場合に起こる現象である。_________に入る語は何か",
+        "options":["主観的な評価","客観的な評価","抽象的な評価","具体的な評価"],
+        "correct": "主観的な評価",
+        "selectedOption": ""
+    },
+    {
+        "question": "本来比較級を用いなくてよい場面にわざと比較級を用いることでどのようなニュアンスを醸し出すことができるか",
+        "options":["荘厳さ","丁寧さ","粗略さ","簡素さ"],
+        "correct": "丁寧さ",
+        "selectedOption": ""
+    },
+    {
+        "question": "You are most generous.のmostはどのようなニュアンスを持つか",
+        "options":["絶対比較級","絶対最上級","相対比較級","相対最上級"],
+        "correct": "絶対最上級",
+        "selectedOption": ""
+    },
+    {
+        "question": "That's most kind of you.のmostはどのようなニュアンスを持つか",
+        "options":["絶対比較級","絶対最上級","相対比較級","相対最上級"],
+        "correct": "絶対最上級",
+        "selectedOption": ""
+    },
+    {
+        "question": "Higher education is something.のhigherはどのようなニュアンスを持つか",
+        "options":["絶対比較級","絶対最上級","相対比較級","相対最上級"],
+        "correct": "絶対比較級",
+        "selectedOption": ""
+    },
+    {
+        "question": "We young people have learned a lot from you older men.のolderはどのようなニュアンスを持つか",
+        "options":["絶対比較級","絶対最上級","相対比較級","相対最上級"],
+        "correct": "絶対比較級",
+        "selectedOption": ""
+    },
+    {
+        "question": "絶対最上級は一種の強意表現として用いられており、「_________」の意である。__________に入る語は何か",
+        "options":["最も","この上なく","とても","比較的"],
+        "correct": "この上なく",
+        "selectedOption": ""
+    },
+    {
+        "question": "Miss Kerr is an excellent teacher.のisはどんな状態を表しているか",
+        "options":["過去の状態","現在の状態","未来の状態","大過去の状態"],
+        "correct": "現在の状態",
+        "selectedOption": ""
+    },
+    {
+        "question": "I smell something burnimg.のsmellはどんな状態を表してるか",
+        "options":["過去の状態","現在の状態","未来の状態","大過去の状態"],
+        "correct": "現在の状態",
+        "selectedOption": ""
+    },
+    {
+        "question": "I always buy my shirts at Harrods.のbuyはどんなニュアンスを持つか",
+        "options":["過去の習慣","現在の習慣","未来の習慣","大過去の習慣"],
+        "correct": "現在の習慣",
+        "selectedOption": ""
+    },
+    {
+        "question": "I go to church on Sundaysのgoはどのようなニュアンスを持つか",
+        "options":["過去の習慣","現在の習慣","未来の習慣","大過去の習慣"],
+        "correct": "現在の習慣",
+        "selectedOption": ""
+    },
+    {
+        "question": "The child cries whenever she goes to the dentist.のcriesはどのようなニュアンスを持つか",
+        "options":["過去の習慣","現在の習慣","未来の習慣","大過去の習慣"],
+        "correct": "現在の習慣",
+        "selectedOption": ""
+    },
+    {
+        "question": "習慣的行為であることは、頻度の副詞句やその他の_________で表されることが多い。__________に入る言葉は何か",
+        "options":["時を表す副詞句・接続詞","時を表す副詞節・接続詞","時を表す副詞句・前置詞","時を表す副詞節・前置詞"],
+        "correct": "時を表す副詞句・接続詞",
+        "selectedOption": ""
+    },
+    {
+        "question": "現在時制は「現在」のことを表すが、それは客観的な「現在（=発話の瞬間）ではなく、発話者が_________に「現在」とみなしたもの（「発話時」を中心にして時間的に幅のある時）である。__________に入る語は何か",
+        "options":["抽象的","具体的","主観的","瞬間的"],
+        "correct": "主観的",
+        "selectedOption": ""
+    },
+    {
+        "question": "He arrived at the office at 7.という文でat the officeと前置詞atが用いられているが、それは「到着地点」つまり________としてofficeを捉えているからである。__________に入る語は何か",
+        "options":["場所","点","空間","時"],
+        "correct": "点",
+        "selectedOption": ""
+    },
+    {
+        "question": "Could I see you in my office?という文でin my officeと前置詞inが使われているが、それは「話すための場所」つまり_________としてofficeを捉えているからである。__________に入る語は何か",
+        "options":["場所","点","空間","時"],
+        "correct":"空間",
+        "selectedOption": ""
+    },
+    {
+        "question": "I take three eggs and beat them in this basin.という文で動詞は現在形であるが、現在形は料理家や奇術師などが自分が行う_________を説明する場合に用いられる。__________に入る語は何か",
+        "options":["動作の過程","動作の結果","動作の予定","動作の内容"],
+        "correct": "動作の過程",
+        "selectedOption": ""
+    },
+    {
+        "question": "スポ＾津中継で現在形を用いるのは目の前で起こっていることを動作と＿＿＿＿＿解説しているからである。＿＿＿＿＿＿に入る語は何か",
+        "options":["同時に","別々に","まとめて","結びつけて"],
+        "correct" :"同時に",
+        "selectedOption": ""
+    },
+    {
+        "question": "「約束」する行為や「命令」行為、「宣言」行為を表すような動詞を何というか",
+        "options":["報告動詞","創造動詞","知覚動詞","遂行動詞"],
+        "correct": "遂行動詞",
+        "selectedOption": ""
+    },
+    {
+        "question": "The baseball game begins at 3 o'clock this afternoon.のbeginsはどんなニュアンスを持つか",
+        "options":["確定的な現在の予定","未確定な現在の予定","確定的な未来の予定","未確定な未来の予定"],
+        "correct": "確定敵な未来の予定",
+        "selectedOption": ""
+    },
+    {
+        "question": "The next train leaves in ten minutes.のleavesはどんなニュアンスを持つか",
+        "options":["確定的な現在の予定","未確定な現在の予定","確定的な未来の予定","未確定な未来の予定"],
+        "correct": "確定敵な未来の予定",
+        "selectedOption": ""
+    },
+    {
+        "question": "新聞の見出しでは、過去に起こったことに_________を出すために現在形で表現される",
+        "options":["緊迫感","臨場感","圧迫感","日常感"],
+        "correct": "臨場感",
+        "selectedOption": ""
+    },
+    {
+        "question": "過去時制も現在時制と同様に状態という時間の幅を表すことができるが、両者の違いは「_________」が含まれているか否かである。__________に入る語は何か",
+        "options":["大過去","過去","現在","未来"],
+        "correct": "現在",
+        "selectedOption":""
+    },
+    {
+        "question": "today,tonightなど一見現在を表すと思われる語句も、________________と見なされれば共起して過去を表すこともある。_____________に入る語句は何か",
+        "options":["現在と結びついた過去のもの","未来と結びついた過去のもの","現在から切り離された過去のもの","未来から切り離された過去のもの"],
+        "correct": "現在から切り離された過去のもの",
+        "selectedOption": ""
+    },
+    {
+        "question": "This magazine was published every month from 1998 to 2005.のwasはどんなニュアンスを持つか",
+        "options":["過去の執行的動作","過去の反復的動作","過去の単一的動作","過去の動作"],
+        "correct": "過去の反復的動作",
+        "selectedOption": ""
+    },
+    {
+        "question": "During the summer I went swimming every day.のwentはどんなニュアンスを持つか",
+        "options":["過去の習慣","過去の出来事","過去の状態","一般的な習慣"],
+        "correct": "過去の習慣",
+        "selectedOption": ""
+    },
+    {
+        "question": "I wondered if you could help me.のwonderedはどのような表現か",
+        "options":["尊敬表現","謙譲表現","丁寧表現","くだけた表現"],
+        "correct": "丁寧表現",
+        "selectedOption": ""
+    },
+    {
+        "question": "Did you want me? Yes, I hoped you would give me a hand with painting.のhopedはどのような表現か",
+        "options":["尊敬表現","謙譲表現","丁寧表現","くだけた表現"],
+        "correct": "丁寧表現",
+        "selectedOption": ""
+    },
+    {
+        "question": "There's no milk in the refrigerator.という文に対してI'll get some today.と返す文では、牛乳がもう無いことを子供に知らされて初めて知り、買ってくる行動を取る意志は_________を表す表現である。_________に入る語句は何か",
+        "options":["その時に生じたこと","既に持っていたこと","起こるべきだったこと","過去に起こったこと"],
+        "correct": "その時に生じたこと",
+        "selectedOption": ""
+    },
+    {
+        "question": "There's no milk in the refrigerator.という文に対してI'm going to get some today.と返す文では牛乳が無いことは既に知っており、買ってくるという行動を取る意志は__________を表す表現である。",
+        "options":["その時に生じたこと","既に持っていたこと","起こるべきだったこと","過去に起こったこと"],
+        "correct": "既に持っていたこと",
+        "selectedOption": ""
+    },
+    {
+        "question": "「意志未来」を表すwillはどのような意志や意図を表すか",
+        "options":["あらかじめ持っていた","その場の状況に応じた","突然沸いた","先入観に基づいた"],
+        "correct": "その場の状況に応じた",
+        "selectedOption": ""
+    },
+    {
+        "question": "be going to do は__________が～する方向に行きつつあることを表す。__________に入る語句は何か",
+        "options":["主語となっている人の目的","主語となっている人の行動","主語となっている人の気持ち","主語となっている人の状況"],
+        "correct": "主語となっている人の気持ち",
+        "selectedOption": ""
+    },
+    {
+        "question": "Will you take me home now, please?のwillはどんなニュアンスを持つか",
+        "options":["依頼","意志確認","伝達","丁寧さ"],
+        "correct": "依頼",
+        "selectedOption": ""
+    },
+    {
+        "question": "Are you going to take me home, or not?のare going toはどんなニュアンスを持つか",
+        "options":["依頼","意志確認","伝達","丁寧さ"],
+        "correct": "意志確認",
+        "selectedOption": ""
+    },
+    {
+        "question": "「予測・推量」を表すwillはどんなニュアンスを持つか",
+        "options":["確実な事実","単なる予測","何らかの兆し・兆候から判断した予測","客観的な根拠に基づいた予測"],
+        "correct": "単なる予測",
+        "selectedOption": ""
+    },
+    {
+        "question": "「予測・推量」を表すbe going to doはどんなニュアンスを持つか",
+        "options":["確実な事実","単なる予測","何らかの兆し・兆候から判断した予測","客観的な根拠に基づいた予測"],
+        "correct": "何らかの兆し・兆候から判断した予測",
+        "selectedOption": ""
+    },
+    {
+        "question": "This table is going to collapse one of these days; the legs are very weak.のis going toは主語にあたるものの___________が～する方向に行きつつあることを表している。__________に入る語句は何か",
+        "options":["感情","性質","状況・状態","意志"],
+        "correct": "状況・状態",
+        "selectedOption": ""
+    },
+    {
+        "question": "近い未来の個人的な予定を表すのに進行形が用いられ、その手配や約束する作業を行っているという含みを持たせることがよくあるが、訳としてはどんな感じになるか",
+        "options":["～するかもしれない","～するつもりだ","~しようとする","～する予定である"],
+        "correct": "～する予定である",
+        "selectedOption": ""
+    },
+    {
+        "question": "My wife and I are leaving Venice next week.という文において、2人は出発(leave)したわけではないが、切符の手配、ホテルの予約など__________といえる行為もleaveの一部とみなしその途中であることを表しているため進行形は近い未来の個人の予定を表している___________に入る語句は何か",
+        "options":["出発に先立つ準備","普段の日常の準備","再確認","気分転換"],
+        "correct": "出発に先立つ準備",
+        "selectedOption": ""
+    },
+    {
+        "question": "The Queen is visit to Malta next month.のbe to doはどのようなニュアンスを持つか",
+        "options":["公式の予定","義務","運命","新聞見出し"],
+        "correct": "公式の予定",
+        "selectedOption": ""
+    },
+    {
+        "question": "His first port of call will be London where he is to meet with the British Prime Minister.のis to meetはどのようなニュアンスを持つか",
+        "options":["公式の予定","義務","運命","新聞見出し"],
+        "correct": "公式の予定",
+        "selectedOption": ""
+    },
+    {
+        "question": "You're to do your homework before you watch TV.のbe to doはどのようなニュアンスを持つか",
+        "options":["公式の予定","義務","運命","新聞見出し"],
+        "correct":"義務",
+        "selectedOption": ""
+    },
+    {
+        "question": "In 1980 she met the man who was to be her husband.のwas to beはどのようなニュアンスを持つか",
+        "options":["公式の予定","義務","運命","新聞見出し"],
+        "correct": "運命",
+        "selectedOption": ""
+    },
+    {
+        "question": "Govt to set up office to aid foreign residents.のto set up (beは省略されている)はどのようなニュアンスを持つか",
+        "options":["公式の予定","義務","運命","新聞見出し"],
+        "correct": "新聞見出し",
+        "selectedOption": ""
+    },
+    {
+        "question": "be to do第三者の意志・命令や規則などで「～する方向にある」場合はどのようなニュアンスを持つか" ,
+        "options":["公式の予定","義務","運命","新聞見出し"],
+        "correct": "義務",
+        "selectedOption": ""
+    },
+    {
+        "question": "be to doの形の内、第三者の意志・命令などでそれが神の力の場合はどのようなニュアンスを持つか",
+        "options":["公式の予定","義務","運命","新聞見出し"],
+        "correct": "運命",
+        "selectedOption": ""
+    },
+    {
+        "question": "be just about to do(近接未来)はどのようなニュアンスを持つか",
+        "options":["まさに～しようとしてる","すでに～している","ちょうど～したところだ","ほとんど～しない"],
+        "correct": "まさに～しようとしてる",
+        "selectedOption": ""
+    },
+    {
+        "question": "We went from PAris to Budapest by rail.のtoはどのようなニュアンスを持つか",
+        "options":["近接","目的","到達点","義務"],
+        "correct": "到達点",
+        "selectedOption": ""
+    },
+    {
+        "question": "The bees buzzed about my head.のaboutはどのようなニュアンスを持つか",
+        "options":["近接","目的","到達点","義務"],
+        "correct": "近接",
+        "selectedOption": ""
+    },
+    {
+        "question": "現在形の未来表現は何を表すか",
+        "options":["確定した事実","不確定な事実","習慣","意志"],
+        "correct": "確定した事実",
+        "selectedOption": ""
+    },
+    {
+        "question": "can,many,must,will,shouldといった「可能・必要・意志・推量」など、文の表す出来事に対する話し手の心的態度を表すものをなんというか",
+        "options":["法副詞","離接副詞","法助動詞","準助動詞"],
+        "correct": "法助動詞",
+        "selectedOption": ""
+    },
+    {
+        "question": "Will you pass the solt, please?のwillはどのようなニュアンスを持つか",
+        "options":["伝聞","婉曲","依頼","現在の推量"],
+        "correct": "依頼",
+        "selectedOption": ""
+    },
+    {
+        "question": "Can you possibly give me a lift?のcanはどのようなニュアンスを持つか",
+        "options":["伝聞","婉曲","依頼","現在の推量"],
+        "correct": "依頼",
+        "selectedOption": ""
+    },
+    {
+        "question": "Nobody would believe that I was innocent.のwouldはどのようなニュアンスを持つか",
+        "options":["伝聞","婉曲","依頼","現在の推量"],
+        "correct": "現在の推量",
+        "selectedOption": ""
+    },
+    {
+        "question": "I can dance better.のcanはどのようなニュアンスを持つか",
+        "options":["能力","可能","可能性","推量"],
+        "correct": "能力",
+        "selectedOption": ""
+    },
+    {
+        "question": "You can skate on the lake today. The ice is thick enough.のcanはどのようなニュアンスを持つか",
+        "options":["能力","可能","可能性","推量"],
+        "correct": "可能",
+        "selectedOption": ""
+    },
+    {
+        "question": "It can get pretty cold here in the winter.のcanはどのようなニュアンスを持つか",
+        "options":["能力","可能","可能性","推量"],
+        "correct": "可能性",
+        "selectedOption": ""
+    },
+    {
+        "question": "You can't be hungry. You've just had lunch.のhungryはどのようなニュアンスを持つか",
+        "options":["能力","可能","可能性","推量"],
+        "correct": "可能性",
+        "selectedOption": ""
+    },
+    {
+        "question": "「能力」をあらわすcanはある行為を行う____________ 能力を持っていることをあらわす。_________に入る語句は何か",
+        "options":["技術的","精神的・肉体的","確信的","心理的"],
+        "correct": "精神的・肉体的",
+        "selectedOption": ""
+    },
+    {
+        "question": "「可能」をあらわすcanは周囲の_________がある行為を可能にすることを表す。________に入る語句は何か",
+        "options":["状況・事情","状態","心情","態度"],
+        "correct": "状況・事情",
+        "selectedOption": ""
+    },
+    {
+        "question": "「可能性」を表すcanが否定形の場合、「__________」とある事柄が起こりうる可能性がまずないこと表す。_________に入る語句は何か",
+        "options":["～なはずがない","ほとんど～しない","～するかもしれない","すでに～している"],
+        "correct": "～なはずがない",
+        "selectedOption": ""
+    },
+    {
+        "question": "You may now leave for lunch, but hurry back.のmayはどのようなニュアンスを持つか",
+        "options":["可能","推量","許可","命令"],
+        "correct": "許可",
+        "selectedOption": ""
+    },
+    {
+        "question": "May I turn the television on?のmayはどのようなニュアンスを持つか",
+        "options":["可能","推量","許可","命令"],
+        "correct": "許可",
+        "selectedOption": ""
+    },
+    {
+        "question": "The room is full of gus. It may blow up at any moment.のmayはどのようなニュアンスを持つか",
+        "options":["可能","推量","許可","命令"],
+        "correct": "推量",
+        "selectedOption": ""
+    },
+    {
+        "question": "「許可」のニュアンスを持つを持つmayは通例、ある行為に対して____________ことを表す。___________に入る語句は何か",
+        "options":["話し手が許可を与える","聞き手に対して許可を求める","話し手が命令する","聞き手に対して質問する"],
+        "correct": "話し手が許可を与える",
+        "selectedOption": ""
+    },
+    {
+        "question": "「許可」のニュアンスを持つを持つmayは疑問文で用いると___________ことを表す表現である。___________に入る語句は何か",
+        "options":["話し手が許可を与える","聞き手に対して許可を求める","話し手が命令する","聞き手に対して質問する"],
+        "correct": "聞き手に対して許可を求める",
+        "selectedOption": ""
+    },
+    {
+        "question": "「推量」を表すmayは状況から判断して_________の可能性があることを表す。_________に入る語句は何か",
+        "options":["10%","30%","五分五分","80%"],
+        "correct": "五分五分",
+        "selectedOption": ""
+    },
+    {
+        "question": "Governments should respect the privacy of citizens.のshouldは「弱い義務」のshouldであり、______がある行為をする義務があることを表す。______に入る語句は何か",
+        "options":["主語","目的語","述語","修飾語"],
+        "correct": "主語",
+        "selectedOption": ""
+    },
+    {
+        "question": "You should take more excercise.のshouldは_________という助言の意味を表す。________に入る語句は何か",
+        "options":["～すべきである","～するかもしれない","～するのが望ましい","～するつもりだ"],
+        "correct": "～するのが望ましい",
+        "selectedOption": ""
+    },
+    {
+        "question": "This should be done by later this afternoon.のshouldは_________と話し手の推量や推論を述べる。________に入る語句は何か",
+        "options":["当然～なはずだ","まさに～しようとしてる","きっと～する","～すべきである"],
+        "correct": "当然～なはずだ",
+        "selectedOption": ""
+    },
+    {
+        "question": "I will never go back to my villae.のwillはどのようなニュアンスを持つか",
+        "options":["未来","意志","推量","義務"],
+        "correct": "意志",
+        "selectedOption": ""
+    },
+    {
+        "question": "If you behave yourself, you shall have whatever you want.のwillはどのようなニュアンスを持つか",
+        "options":["未来","意志","推量","義務"],
+        "correct": "意志",
+        "selectedOption": ""
+    },
+    {
+        "question": "People will remember tonight's events.のwillはどのようなニュアンスを持つか",
+        "options":["未来","意志","推量","義務"],
+        "correct": "推量",
+        "selectedOption": ""
+    } 
 ]
