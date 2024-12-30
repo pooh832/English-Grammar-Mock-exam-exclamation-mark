@@ -40,9 +40,13 @@ function loadQuestion() {
     const currentQuestion = quizData[currentQuestionIndex];
     questionElement.textContent = currentQuestion.question;
 
+    // 選択肢をシャッフル
+    const shuffledOptions = shuffleArray([...currentQuestion.options]);
+
     // 現在の問題番号を表示
     const questionNumber = currentQuestionIndex + 1;  // 0から始まるインデックスを1から始まる問題番号に変換
     document.getElementById('current-question').textContent = `問題 ${questionNumber} / ${quizData.length}`;
+    
 
     if (mode === 'easy') {
         // 簡単モード：ボタン表示
@@ -58,9 +62,11 @@ function loadQuestion() {
         optionsContainer.style.display = 'none';
         inputContainer.style.display = 'block';
         answerInput.value = '';
-        resultElement.textContent = '';
-        nextButton.style.display = 'block';
     }
+
+    nextButton.style.display = 'none';
+    resultElement.textContent = '';
+    nextButton.style.display = 'block';
 }
 
 // 答えをチェックする関数（ボタン形式）
