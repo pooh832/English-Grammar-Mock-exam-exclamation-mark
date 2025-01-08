@@ -379,7 +379,7 @@
     {
         "question": "The next train leaves in ten minutes.のleavesはどんなニュアンスを持つか",
         "options":["確定的な現在の予定","未確定な現在の予定","確定的な未来の予定","未確定な未来の予定"],
-        "correct": "確定敵な未来の予定",
+        "correct": "確定的な未来の予定",
         "selectedOption": ""
     },
     {
